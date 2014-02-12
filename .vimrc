@@ -16,5 +16,6 @@ set ruler
 set encoding=utf-8
 
 " Show whitespace characters
-set list
+"set list
+"set listchars=tab:>-
 
