@@ -1,0 +1,17 @@
+# Core
+[submodule ".vim/bundle/vim-pathogen"]
+	path = .vim/bundle/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen.git
+
+[submodule ".vim/bundle/vimerl"]
+	path = .vim/bundle/vimerl
+	url = https://github.com/jimenezrick/vimerl.git
+
+[submodule ".vim/bundle/erlang-motions"]
+	path = .vim/bundle/erlang-motions.vim
+	url = https://github.com/edkolev/erlang-motions.vim.git
+
+[submodule ".vim/bundle/nerdtree"]
+	path = .vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+
