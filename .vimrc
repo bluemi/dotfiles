@@ -1,3 +1,6 @@
+" Pathogen
+execute pathogen#infect()
+
 " Map jk to <ESC>
 inoremap jk <ESC>
 
