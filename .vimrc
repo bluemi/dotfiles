@@ -3,6 +3,13 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 execute pathogen#helptags()
 
+" swap/backup files location
+if isdirectory($HOME . '/.vim/.tmp') == 0
+  :silent !mkdir -m 700 -p ~/.vim/.tmp > /dev/null 2>&1
+endif
+set backupdir=$HOME/.vim/.tmp//
+set directory=$HOME/.vim/.tmp//
+
 " Map jk to <ESC>
 inoremap jk <ESC>
 
