@@ -10,5 +10,3 @@ My personal collection of various config files
 ```ln -s dotfiles/.vim .vim```
 
 ```git submodule init && git submodule update```
-
-```vim```
