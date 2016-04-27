@@ -5,9 +5,10 @@ My personal collection of various config files
 
 ## Vim
 
-ln -s dotfiles/.vimrc .vimrc
-ln -s dotfiles/.vim .vim
+```ln -s dotfiles/.vimrc .vimrc```
 
-run ```git submodule init && git submodule update```
+```ln -s dotfiles/.vim .vim```
 
-start vim
+```git submodule init && git submodule update```
+
+```vim```
