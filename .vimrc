@@ -32,5 +32,6 @@ set encoding=utf-8
 "set listchars=tab:>-
 
 " Erlang uses 4 spaces
-au FileType erlang set softtabstop=4 tabstop=4 shiftwidth=4
+autocmd BufRead,    BufNewFile *.erl, *.es, *.hrl, *.yaws, *.xrl set  expandtab
+au      BufNewFile, BufRead    *.erl, *.es, *.hrl, *.yaws, *.xrl setf erlang
 
