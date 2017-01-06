@@ -42,8 +42,8 @@ syntax on
 filetype plugin indent on
 
 " Color
-" colorschema lucius
-" LuciusDarkLowContrast
+colorscheme lucius
+LuciusDarkLowContrast
 
 " Encoding
 set encoding=utf-8
@@ -62,3 +62,9 @@ set hidden
 " NERDTree
 nnoremap <leader>n :NERDTreeToggle<CR>
 
+" iTerm2 change cursor based on mode
+if $TERM_PROGRAM =~ "iTerm"
+    let &t_SI = "\<Esc>]50;CursorShape=1\x7" " Vertical bar in insert mode
+    let &t_EI = "\<Esc>]50;CursorShape=0\x7" " Block in normal mode
+    let &t_SR = "\<esc>]50;CursorShape=2\x7" " Underline in replace mode
+endif
