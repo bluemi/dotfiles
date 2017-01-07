@@ -42,8 +42,8 @@ syntax on
 filetype plugin indent on
 
 " Color
-"colorscheme lucius
-"LuciusDarkLowContrast
+colorscheme lucius
+LuciusDarkLowContrast
 
 " Encoding
 set encoding=utf-8
@@ -60,7 +60,7 @@ set hidden
 "set listchars=tab:>-
 
 " NERDTree
-"nnoremap <leader>n :NERDTreeToggle<CR>
+nnoremap <leader>n :NERDTreeToggle<CR>
 
 " iTerm2 change cursor based on mode
 if $TERM_PROGRAM =~ "iTerm"
