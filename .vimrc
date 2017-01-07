@@ -1,7 +1,7 @@
 " Pathogen
-"runtime bundle/vim-pathogen/autoload/pathogen.vim
-"execute pathogen#infect()
-"execute pathogen#helptags()
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+execute pathogen#helptags()
 
 " swap/backup files location
 if isdirectory($HOME . '/.vim/.tmp') == 0
