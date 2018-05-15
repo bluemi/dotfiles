@@ -9,4 +9,9 @@ My personal collection of various config files
 
 ```ln -s dotfiles/.vim .vim```
 
-```git submodule init && git submodule update```
+```Launch vim and run :PluginInstall
+
+or form command line
+
+```vim +PluginInstall +qall
+

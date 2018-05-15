@@ -1,2 +1,8 @@
-/.vim/.tmp/*
+# Ignore all files
+*
+
+# Exceptions
+!.gitignore
+!.vimrc
+!.README.md
 
