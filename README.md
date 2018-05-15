@@ -9,9 +9,9 @@ My personal collection of various config files
 
 ```ln -s dotfiles/.vim .vim```
 
-```Launch vim and run :PluginInstall
+```Launch vim and run :PluginInstall```
 
 or form command line
 
-```vim +PluginInstall +qall
+```vim +PluginInstall +qall```
 
