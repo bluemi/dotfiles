@@ -6,9 +6,13 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'mileszs/ack.vim'
-Plugin 'jonathanfilip/vim-lucius'
 Plugin 'sjbach/lusty'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-fugitive'
+Plugin 'vim-airline/vim-airline'
+
+Plugin 'jonathanfilip/vim-lucius'
 
 call vundle#end()
 filetype plugin indent on
@@ -64,6 +68,9 @@ set hidden
 " Show whitespace characters
 "set list
 "set listchars=tab:>-
+
+" NERDTree
+nnoremap <leader>n :NERDTreeToggle<CR>
 
 " Default params for ack
 let g:ackprg="ack -H --nocolor --nogroup --column"
