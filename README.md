@@ -21,3 +21,7 @@ or form command line
 
 ```vim +PluginInstall +qall```
 
+## zsh
+
+```ln -s dotfiles/.zshrc .zshrc```
+
