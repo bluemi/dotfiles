@@ -14,6 +14,10 @@ Plugin 'vim-airline/vim-airline'
 
 Plugin 'jonathanfilip/vim-lucius'
 
+" Elixir
+Plugin 'elixir-editors/vim-elixir'
+Plugin 'slashmili/alchemist.vim'
+
 call vundle#end()
 filetype plugin indent on
 
