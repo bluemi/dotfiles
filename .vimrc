@@ -11,12 +11,21 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
-
+Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'jonathanfilip/vim-lucius'
 
 " Elixir
 Plugin 'elixir-editors/vim-elixir'
 Plugin 'slashmili/alchemist.vim'
+
+" Clojure
+Plugin 'guns/vim-clojure-static'
+Plugin 'clojure-emacs/cider-nrepl'
+Plugin 'tpope/vim-fireplace'
+Plugin 'luochen1990/rainbow'
+Plugin 'guns/vim-sexp'
+Plugin 'tpope/vim-sexp-mappings-for-regular-people'
+Plugin 'gberenfield/cljfold.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -35,6 +44,7 @@ set ruler
 set wrap
 set scrolloff=3
 set antialias
+set colorcolumn=80
 
 " Search
 set ignorecase
@@ -100,4 +110,14 @@ imap <up> <nop>
 imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
+
+" vim-airline
+" Enable the list of buffers and show just filenames.
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
+
+" CtrlP
+" Use the nearest .git directory as the cwd
+let g:ctrlp_working_path_mode = 'r'
+nmap <leader>p :CtrlP<cr>
 
